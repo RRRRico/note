@@ -65,6 +65,12 @@ When no protocol or valid domain name is given the browser proceeds to feed the 
 
 Note: The website can still use the HSTS policy without being in the HSTS list. The first HTTP request to the website by a user will receive a response requesting that the user only send HTTPS requests. However, this single HTTP request could potentially leave the user vulnerable to a [downgrade attack](https://www.yourdictionary.com/downgrade-attack), which is why the HSTS list is included in modern web browsers.
 
+### HSTS References
+
+* [MDN Specification](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
+
+* [Chromium Implementation with preloaded HSTS](https://www.chromium.org/hsts)
+
 ## DNS lookup
 
 The browser tries to figure out the IP address for the entered domain. The DNS lookup proceeds as follows:
@@ -452,6 +458,10 @@ The first website at CERN - and in the world - was dedicated to the World Wide W
 
 On 30 April 1993 CERN put the World Wide Web software in the public domain. CERN made the next release available with an open license, as a more sure way to maximize its dissemination. Through these actions, making the software required to run a web server freely available, along with a [basic browser](https://line-mode.cern.ch/) and a library of code, the web was allowed to flourish.
 
+## References
+
+* [Original Article](https://github.com/vasanthk/how-web-works/blob/master/README.md)
+
 _More reading:_
 
 [What really happens when you navigate to a URL](https://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
@@ -467,4 +477,3 @@ _More reading:_
 [Constructing the Object Model](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
 
 [How the Web Works: A Primer for Newcomers to Web Development \(or anyone, really\)](https://medium.freecodecamp.com/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c#.7l3tokoh1)
-
