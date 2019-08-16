@@ -68,7 +68,6 @@ Note: The website can still use the HSTS policy without being in the HSTS list. 
 ### HSTS References
 
 * [MDN Specification](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
-
 * [Chromium Implementation with preloaded HSTS](https://www.chromium.org/hsts)
 
 ## DNS lookup
@@ -406,7 +405,7 @@ When the renderer is created and added to the tree, it does not have a position 
 
 HTML uses a flow based layout model, meaning that most of the time it is possible to compute the geometry in a single pass. Elements later 'in the flow' typically do not affect the geometry of elements that are earlier 'in the flow', so layout can proceed left-to-right, top-to-bottom through the document. The coordinate system is relative to the root frame. Top and left coordinates are used.
 
-Layout is a recursive process. It begins at the root renderer, which corresponds to the  element of the HTML document. Layout continues recursively through some or all of the frame hierarchy, computing geometric information for each renderer that requires it.
+Layout is a recursive process. It begins at the root renderer, which corresponds to the element of the HTML document. Layout continues recursively through some or all of the frame hierarchy, computing geometric information for each renderer that requires it.
 
 The position of the root renderer is 0,0 and its dimensions are the viewport–the visible part of the browser window. All renderers have a "layout" or "reflow" method, each renderer invokes the layout method of its children that need layout.
 
@@ -477,3 +476,4 @@ _More reading:_
 [Constructing the Object Model](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
 
 [How the Web Works: A Primer for Newcomers to Web Development \(or anyone, really\)](https://medium.freecodecamp.com/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c#.7l3tokoh1)
+
