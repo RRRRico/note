@@ -7,7 +7,6 @@
   * [Load Balancer](system-design/load-balancer.md)
 * [Java Core](java-core/README.md)
   * [Thinking in Java](java-core/thinking-in-java/README.md)
-    * [Chapter 2: Creating and Destroying Objects](java-core/thinking-in-java/chapter-2-creating-and-destroying-objects/README.md)
-      * [Item 7: Eliminate obsolete object references](java-core/thinking-in-java/chapter-2-creating-and-destroying-objects/item-7-eliminate-obsolete-object-references.md)
+    * [Chapter 2: Creating and Destroying Objects](java-core/thinking-in-java/chapter-2-creating-and-destroying-objects.md)
 * [Static Nested Class in Java](static-nested-class-in-java.md)
 
