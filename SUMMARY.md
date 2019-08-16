@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Notes Hub](README.md)
-* [Clips](clips/README.md)
-  * [How Web Works](clips/how-web-works.md)
 
 ## Computer Science
 
@@ -16,4 +14,5 @@
 * [Load Balancer](system-design-1/load-balancer/README.md)
   * [Static Nested Class in Java](system-design-1/load-balancer/static-nested-class-in-java.md)
   * [network](system-design-1/load-balancer/network.md)
+* [How Web Works](system-design-1/how-web-works.md)
 
