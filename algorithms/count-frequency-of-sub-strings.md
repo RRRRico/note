@@ -4,7 +4,7 @@ description: 'Given a string, count frequency of all sub-strings.'
 
 # Count Frequency of Sub-Strings
 
-### Example
+## Example
 
 | Input | Output |
 | :--- | :--- |
@@ -13,9 +13,9 @@ description: 'Given a string, count frequency of all sub-strings.'
 | ieooieoogg | 15 |
 | nookznzkkn | 8 |
 
-### Solution
+## Solution
 
-#### Dynamic Programming
+### Dynamic Programming
 
 `[i, j]` track the longest length of suffix ending at `i` which is same as suffix ending at `j` .
 
@@ -46,7 +46,7 @@ public static int menu(String str) {
 
 ```
 
-#### Suffix Trie
+### Suffix Trie
 
 Build a suffix trie with compression to save memory
 
@@ -100,4 +100,3 @@ private static int index(String str, int i) {
   return str.charAt(i) - 'a';
 }
 ```
-
