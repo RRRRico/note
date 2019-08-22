@@ -14,3 +14,7 @@
   * [network](system-design/load-balancer/network.md)
 * [How Web Works](system-design/how-web-works.md)
 
+## Algorithms
+
+* [Count Frequency of Sub-Strings](algorithms/count-frequency-of-sub-strings.md)
+
