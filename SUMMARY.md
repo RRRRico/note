@@ -1,6 +1,9 @@
 # Table of contents
 
 * [Notes Hub](README.md)
+* [Java](java/README.md)
+  * [JVM](java/jvm.md)
+* [Static Nested Class in Java](static-nested-class-in-java.md)
 
 ## Books
 
@@ -10,7 +13,6 @@
 ## System Design
 
 * [Load Balancer](system-design/load-balancer/README.md)
-  * [Static Nested Class in Java](system-design/load-balancer/static-nested-class-in-java.md)
   * [network](system-design/load-balancer/network.md)
 * [How Web Works](system-design/how-web-works.md)
 

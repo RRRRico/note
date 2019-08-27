@@ -43,7 +43,6 @@ public static int menu(String str) {
   }
   return count;
 }
-
 ```
 
 ### Suffix Trie
@@ -100,3 +99,4 @@ private static int index(String str, int i) {
   return str.charAt(i) - 'a';
 }
 ```
+
