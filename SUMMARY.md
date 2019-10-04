@@ -15,6 +15,7 @@
 * [Load Balancer](system-design/load-balancer/README.md)
   * [network](system-design/load-balancer/network.md)
 * [How Web Works](system-design/how-web-works.md)
+* [Rate Limiter](system-design/rate-limiter.md)
 
 ## Algorithms
 
