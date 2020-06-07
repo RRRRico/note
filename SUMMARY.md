@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Notes Hub](README.md)
+* [Note Hub](README.md)
 * [Java](java/README.md)
   * [JVM](java/jvm.md)
 * [Static Nested Class in Java](static-nested-class-in-java.md)
